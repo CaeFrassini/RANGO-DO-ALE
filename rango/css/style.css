@@ -1,15 +1,14 @@
 * {
     box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 body{
 background-color: #000000;
 margin: 0;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 header {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     position: relative;
     background-color: #ffc003;
     padding: 8px;
@@ -17,6 +16,10 @@ header {
     display: flex;
     align-items: center;
     gap: 30px;
+}
+
+.icones{
+    margin: 20px;
 }
 
 .navbar{
@@ -81,15 +84,17 @@ section {
 
 .card {
     background: rgb(232, 110, 4);
-    width: 1000px;
+    width: 1500px;
     padding: 100px;
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
-.card h2 {
-    margin-bottom: 10px;
-    color: #333;
+.titulo-card{
+    position: relative;
+    bottom: 80px;
+    text-align: center;
+    color: #ffffff;
 }
 
 .card p {
@@ -110,19 +115,12 @@ section {
     align-content: space-between;
 }
 
-.bg-black{
-    background-color: black;
-}
-
-.bg-green{
-    background-color: rgb(18, 209, 56);
-}
-
-.bg-blue{
-    background-color: #008CBA;
+.bg-yellow{
+    background-color: #ffc003;
 }
 
 .global-cards{
     width: 400px;
-    margin: 5px;
+    margin: 50px;
+    color: #000000;
 }
